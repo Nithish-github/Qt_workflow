@@ -31,7 +31,7 @@ jobs:
           pyinstaller main.py --onefile --noconsole --name MyApp
 
       - name: Upload EXE artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: MyApp
           path: dist/MyApp.exe
