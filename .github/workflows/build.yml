@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           name: MyApp
-          path: dist/MyApp.exe
+          path: dist/
